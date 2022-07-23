@@ -1,5 +1,5 @@
 body {
-	background-color: #fff;
+	font-family: "Roboto", sans-serif;
 }
 a {
 	text-decoration: none;
@@ -13,6 +13,12 @@ li {
 }
 
 .logo {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
 	color: #2196f3;
 }
 .color-black {
@@ -25,9 +31,17 @@ li {
 	color: #2196f3;
 }
 .site-nav a {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
 	color: #212121;
 }
 .auth-nav a {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
 	color: #757575;
 }
 .banner {
