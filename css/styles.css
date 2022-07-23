@@ -7,6 +7,7 @@ a {
 li {
 	list-style: none;
 }
+
 .page-header {
 	background-color: #fff;
 }
@@ -91,4 +92,26 @@ address {
 address a:hover,
 address a:focus {
 	color: #2196f3;
+}
+.portflio {
+	background-color: #fff;
+}
+.filters button {
+	color: #212121;
+	background-color: #f5f4fa;
+}
+.filters button:hover,
+.filters button:focus {
+	color: #fff;
+	background-color: #2196f3;
+}
+
+button {
+	border: none;
+}
+.cards {
+	color: #212121;
+}
+.cards-text {
+	color: #757575;
 }
