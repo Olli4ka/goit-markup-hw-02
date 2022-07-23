@@ -41,3 +41,12 @@ li {
 	color: #fff;
 	background-color: #2196f3;
 }
+.hidden {
+	opacity: 0;
+}
+.pec-list {
+	color: #212121;
+}
+.pec-text {
+	color: #757575;
+}
