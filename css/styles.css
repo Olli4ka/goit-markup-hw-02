@@ -1,5 +1,5 @@
 body {
-	background-color: #e5e5e5;
+	background-color: #fff;
 }
 a {
 	text-decoration: none;
@@ -45,8 +45,31 @@ li {
 	opacity: 0;
 }
 .pec-list {
+	background-color: #fff;
+}
+.pec-list-title {
 	color: #212121;
 }
-.pec-text {
+.pec-list-text {
 	color: #757575;
 }
+.tittle {
+	color: #212121;
+	background-color: #fff;
+}
+.team {
+	background-color: #f5f4fa;
+}
+.team-title {
+	color: #212121;
+}
+.team-card {
+	background-color: #fff;
+}
+.card-title {
+	color: #212121;
+}
+.card-text {
+	color: #757575;
+}
+]
