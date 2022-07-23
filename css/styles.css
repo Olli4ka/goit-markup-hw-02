@@ -72,4 +72,23 @@ li {
 .card-text {
 	color: #757575;
 }
-]
+footer {
+	background-color: #2f303a;
+}
+.color-white {
+	color: #fff;
+}
+address {
+	font-style: normal;
+}
+.adr {
+	color: #fff;
+}
+.mail,
+.tel {
+	color: rgba(255, 255, 255, 0.6);
+}
+address a:hover,
+address a:focus {
+	color: #2196f3;
+}
