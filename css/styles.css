@@ -84,23 +84,39 @@ li {
 	letter-spacing: 0.03em;
 	color: #757575;
 }
-.tittle {
-	color: #212121;
+.doing {
 	background-color: #fff;
+}
+.tittle,
+.team-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
 }
 .team {
 	background-color: #f5f4fa;
 }
-.team-title {
-	color: #212121;
-}
+
 .team-card {
 	background-color: #fff;
 }
 .card-title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.03em;
 	color: #212121;
 }
 .card-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.03em;
 	color: #757575;
 }
 footer {
@@ -110,6 +126,10 @@ footer {
 	color: #fff;
 }
 address {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
 	font-style: normal;
 }
 .adr {
