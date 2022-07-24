@@ -101,6 +101,7 @@ li {
 }
 
 .team-card {
+	text-align: center;
 	background-color: #fff;
 }
 .card-title {
@@ -147,6 +148,11 @@ address a:focus {
 	background-color: #fff;
 }
 .filters button {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.6;
+	text-align: center;
+	letter-spacing: 0.03em;
 	color: #212121;
 	background-color: #f5f4fa;
 }
@@ -159,9 +165,17 @@ address a:focus {
 button {
 	border: none;
 }
-.cards {
+.cads {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
 	color: #212121;
 }
 .cards-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.9;
+	letter-spacing: 0.03em;
 	color: #757575;
 }
