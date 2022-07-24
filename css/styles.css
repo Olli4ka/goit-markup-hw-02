@@ -71,9 +71,17 @@ li {
 	background-color: #fff;
 }
 .pec-list-title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
 	color: #212121;
 }
 .pec-list-text {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
 	color: #757575;
 }
 .tittle {
