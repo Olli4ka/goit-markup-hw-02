@@ -1,5 +1,15 @@
+:root {
+	--main-title-color: #fff;
+	--accent-color: #2196f3;
+	--color-titles: #212121;
+	--colr-text: #757575;
+}
+
 body {
 	font-family: "Roboto", sans-serif;
+	background-color: #fff;
+	font-size: 14px;
+	letter-spacing: 0.03em;
 }
 a {
 	text-decoration: none;
@@ -9,16 +19,15 @@ li {
 }
 
 .page-header {
-	background-color: #fff;
+	background-color: var(--main-title-color);
 }
 
 .logo {
-	font-family: "Raleway";
+	font-family: "Raleway" sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
-	letter-spacing: 0.03em;
 	color: #2196f3;
 }
 .color-black {
@@ -28,30 +37,35 @@ li {
 .auth-nav a:hover,
 .site-nav a:focus,
 .auth-nav a:focus {
-	color: #2196f3;
+	cursor: pointer;
+	color: var(--accent-color);
 }
 .site-nav a {
 	font-weight: 500;
-	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: #212121;
+	color: var(--color-titles);
+}
+.current {
+	color: var(--accent-color);
 }
 .auth-nav a {
 	font-weight: 500;
-	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: #757575;
+	color: var(--colr-text);
 }
 .banner {
+	background-color: #2f303a;
+}
+.banner-title {
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
 	text-align: center;
 	letter-spacing: 0.06em;
-	color: #fff;
-	background-color: #2f303a;
+	text-transform: uppercase;
+	color: var(--main-title-color);
 }
 .main-button {
 	font-weight: 700;
@@ -60,41 +74,47 @@ li {
 	display: flex;
 	align-items: center;
 	text-align: center;
+	cursor: pointer;
 	letter-spacing: 0.06em;
-	color: #fff;
-	background-color: #2196f3;
+	color: var(--main-title-color);
+	background-color: var(--accent-color);
 }
-.hidden {
-	opacity: 0;
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 .pec-list {
-	background-color: #fff;
+	background-color: var(--main-title-color);
 }
 .pec-list-title {
 	font-weight: 700;
-	font-size: 14px;
 	line-height: 1.14;
-	letter-spacing: 0.03em;
-	color: #212121;
+	text-transform: uppercase;
+	color: var(--color-titles);
 }
 .pec-list-text {
 	font-weight: 400;
-	font-size: 14px;
 	line-height: 1.7;
-	letter-spacing: 0.03em;
-	color: #757575;
+	color: var(--colr-text);
 }
 .doing {
-	background-color: #fff;
+	background-color: var(--main-title-color);
 }
-.tittle,
+.doing-title,
 .team-title {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.16;
 	text-align: center;
-	letter-spacing: 0.03em;
-	color: #212121;
+	color: var(--color-titles);
 }
 .team {
 	background-color: #f5f4fa;
@@ -102,23 +122,21 @@ li {
 
 .team-card {
 	text-align: center;
-	background-color: #fff;
+	background-color: var(--main-title-color);
 }
 .card-title {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.2;
 	text-align: center;
-	letter-spacing: 0.03em;
-	color: #212121;
+	color: var(--color-titles);
 }
 .card-text {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.2;
 	text-align: center;
-	letter-spacing: 0.03em;
-	color: #757575;
+	color: var(--colr-text);
 }
 footer {
 	background-color: #2f303a;
@@ -128,13 +146,11 @@ footer {
 }
 address {
 	font-weight: 400;
-	font-size: 14px;
 	line-height: 1.7;
-	letter-spacing: 0.03em;
 	font-style: normal;
 }
 .adr {
-	color: #fff;
+	color: var(--main-title-color);
 }
 .mail,
 .tel {
@@ -142,24 +158,25 @@ address {
 }
 address a:hover,
 address a:focus {
-	color: #2196f3;
+	color: var(--accent-color);
 }
 .portflio {
-	background-color: #fff;
+	background-color: var(--main-title-color);
 }
 .filters button {
+	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.6;
 	text-align: center;
-	letter-spacing: 0.03em;
-	color: #212121;
+	color: var(--color-titles);
 	background-color: #f5f4fa;
 }
 .filters button:hover,
 .filters button:focus {
-	color: #fff;
-	background-color: #2196f3;
+	cursor: pointer;
+	color: var(--main-title-color);
+	background-color: var(--accent-color);
 }
 
 button {
@@ -170,12 +187,11 @@ button {
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
-	color: #212121;
+	color: var(--color-titles);
 }
 .cards-text {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.9;
-	letter-spacing: 0.03em;
-	color: #757575;
+	color: var(--colr-text);
 }
