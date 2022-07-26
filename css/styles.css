@@ -2,7 +2,8 @@
 	--main-title-color: #fff;
 	--accent-color: #2196f3;
 	--color-titles: #212121;
-	--colr-text: #757575;
+	--color-text: #757575;
+	--color-fon: #f5f4fa;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
 	background-color: #fff;
 	font-size: 14px;
 	letter-spacing: 0.03em;
+	color: var(--color-titles);
 }
 a {
 	text-decoration: none;
@@ -23,7 +25,7 @@ li {
 }
 
 .logo {
-	font-family: "Raleway" sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
@@ -46,7 +48,7 @@ li {
 	letter-spacing: 0.02em;
 	color: var(--color-titles);
 }
-.current {
+.site-nav .current {
 	color: var(--accent-color);
 }
 .auth-nav a {
@@ -79,6 +81,11 @@ li {
 	color: var(--main-title-color);
 	background-color: var(--accent-color);
 }
+.main-button:hover,
+.main-button:focus {
+	color: var(--main-title-color);
+	background-color: #188ce8;
+}
 .visually-hidden {
 	position: absolute;
 	width: 1px;
@@ -96,6 +103,7 @@ li {
 }
 .pec-list-title {
 	font-weight: 700;
+	font-size: 14px;
 	line-height: 1.14;
 	text-transform: uppercase;
 	color: var(--color-titles);
@@ -117,7 +125,7 @@ li {
 	color: var(--color-titles);
 }
 .team {
-	background-color: #f5f4fa;
+	background-color: var(--color-fon);
 }
 
 .team-card {
@@ -170,7 +178,7 @@ address a:focus {
 	line-height: 1.6;
 	text-align: center;
 	color: var(--color-titles);
-	background-color: #f5f4fa;
+	background-color: var(--color-fon);
 }
 .filters button:hover,
 .filters button:focus {
